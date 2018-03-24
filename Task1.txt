@@ -1,0 +1,30 @@
+Create a force.com site to display knowledge articles for end users without any need to login on the site. 
+The user should be able to create a case by submitting a form from the site. 
+The case should then be assigned to a queue. 
+If the case is not updated within 2 hrs it should be escalated.
+
+
+1. Create a force.com site
+2. display knowledge articles for end users without any need to login on the site. 
+
+
+
+
+00001053
+
+
+=====================================================
+domain name: testmycomp-developer-edition.ap5.force.com
+Site NAme: MyKnowledgeArticles
+Home Page: Login
+
+########## In knowledge setting -> Allow users to share articles via public URLs -> site ko configure karo(first create a VF for site)
+=====================================================
+To view knowledge article in site: A user must have the “View Articles” permission enabled. Salesforce Knowledge users, unlike Customer Portal and partner portal users, must also be granted the Knowledge User feature license.
+
+
+window.location.href = "/apex/createCaseForm";
+
+MyArticle1
+
+Automate Case Assign Management : https://trailhead.salesforce.com/en/modules/service_basics/units/service_basics_automate_case_management

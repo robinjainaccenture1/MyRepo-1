@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+	<!-- Partner Master Service Competency Components- Start -->
+    <types>
+        <members>CompetencyCheck</members>
+        <members>ContactTriggerController</members>
+        <members>MSC_CompetencyClassUtility</members>
+        <members>MSC_Dashboard</members>
+        <members>MyProfileController</members>
+        <members>certAdmin_MSC</members>
+        <!--<members>checkMSCFieldUpdate</members>-->
+        <members>competencyDashboard</members>
+		<members>AccountExtension_InlineCon</members>
+        <members>CustRef_MSC_Controller</members>
+        <members>MSC_Customer_Ref_Controller</members>
+        <members>NewCustomerReferenceController</members>
+        <members>ReviewFieldUpdate</members>
+        <members>custRefProfileCheck</members>
+        <members>marketExpertiseLinkController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>MSC_Dashboard</members>
+        <members>MyProfileLandingPage</members>
+        <members>certAdmin_MSC</members>
+		<members>AccountExtension_Inline</members>
+        <members>MSC_Customer_Ref</members>
+        <!--<members>MSC_Customer_Ref_Already_Submited</members>-->
+        <!--<members>MSC_Customer_Ref_Partner_Thanks</members>-->
+        <members>New_Customer_Reference_Page</members>
+        <members>custRef_MSC</members>
+        <members>marketexpertiseLinks</members>
+        <members>MSC_CompetencyEnrolled</members>
+		<!--<members>MSC_Customer_Reference_Review</members>-->
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>AccreditationRollup</members>
+        <members>CompetencyAfterUpdate</members>
+        <members>AccountExtensionUpdate</members>
+        <members>UpdateCusomerReference</members>
+		<members>PBP_UpdatePartnerBusinessPlan</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>CertificationAccreditation_Admin__c.Abbreviation__c</members>
+        <members>CertificationAccreditation_Admin__c.Version__c</members>
+        <members>Competency_Admin__c.Master_Services_Competency__c</members>
+        <members>Competency_Course__c.Condition_OR_AND__c</members>
+        <members>Competency_Course__c.Display_Name__c</members>
+        <members>Competency_Course__c.Required_Course_10__c</members>
+        <members>Competency_Course__c.Required_Course_1__c</members>
+        <members>Competency_Course__c.Required_Course_2__c</members>
+        <members>Competency_Course__c.Required_Course_3__c</members>
+        <members>Competency_Course__c.Required_Course_4__c</members>
+        <members>Competency_Course__c.Required_Course_5__c</members>
+        <members>Competency_Course__c.Required_Course_6__c</members>
+        <members>Competency_Course__c.Required_Course_7__c</members>
+        <members>Competency_Course__c.Required_Course_8__c</members>
+        <members>Competency_Course__c.Required_Course_9__c</members>
+        <members>Competency__c.Incomplete_due_to_Certification_Expired__c</members>
+        <members>Competency__c.Master_Services_Competency__c</members>
+        <members>Account_Extension__c.MSC_CMA__c</members>
+        <members>Account_Extension__c.MSC_DCV__c</members>
+        <members>Account_Extension__c.MSC_DTM__c</members>
+        <members>Account_Extension__c.MSC_NV__c</members>
+		<members>Competency_Admin__c.Customer_Reference_Valid_Through__c</members>
+        <members>Competency_Admin__c.Customer_Reference__c</members>
+        <members>Competency__c.CertificationCourse1CertificationName__c</members>
+        <members>Competency__c.CertificationCourse1ExpirationDate__c</members>
+        <members>Competency__c.CustomerReferenceExpirationDate__c</members>
+        <members>Competency__c.CustomerReferenceName__c</members>
+        <members>Customer_Reference__c.Active__c</members>
+        <members>Customer_Reference__c.Comments_by_Operations_Team__c</members>
+        <members>Customer_Reference__c.Competency_Admin__c</members>
+        <members>Customer_Reference__c.End_Customer_Opportunity__c</members>
+        <!--<members>Customer_Reference__c.ExpireDate__c</members>-->
+        <members>Customer_Reference__c.Form_Submission_Date__c</members>
+        <members>Customer_Reference__c.Initial_Email_Sent__c</members>
+        <members>Customer_Reference__c.Outcomes_of_Project_Success_Metrics__c</members>
+        <members>Customer_Reference__c.PBM__c</members>
+        <members>Customer_Reference__c.PMM__c</members>
+        <members>Customer_Reference__c.Partner_Satisfied__c</members>
+        <members>Customer_Reference__c.Problem_Statement_Definition__c</members>
+        <members>Customer_Reference__c.Project_End_Date__c</members>
+        <members>Customer_Reference__c.Project_Start_Date__c</members>
+        <members>Customer_Reference__c.Project_Title__c</members>
+        <members>Customer_Reference__c.Proposed_Solution_Architecture__c</members>
+        <members>Customer_Reference__c.Reason_For_Review__c</members>
+        <members>Customer_Reference__c.Valid_Through__c</members>
+        <members>Partner_Locator_Extension__c.Master_Services_Competency__c</members>
+		<members>Customer_Reference__c.Review__c</members>
+		<members>Competency__c.Incomplete_due_to_Cust_Rerf_Exp_Cancel__c</members>
+		<members>Customer_Reference__c.Status__c</members>
+		<members>Customer_Reference__c.Account_Partner_ID__c</members>
+		<members>Customer_Reference__c.Expiration_Date__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>MSC_BackToMSCDashboard</members>
+        <members>MSC_MSCInformation</members>
+        <members>MSC_MasterServiceCompetencyDashboard</members>
+        <members>MSC_VCAP</members>
+        <members>PC_CompetencyDashboard</members>
+        <members>MSC_CerAdmin_Certification</members>
+        <members>MSC_Certification</members>
+        <members>MSC_DashboardMsg1</members>
+		<members>PC_VCAP_Deploy</members>
+		<members>MSC_Action</members>
+        <members>MSC_Competency_Name</members>
+        <members>MSC_End_Customer_Contact</members>
+        <members>MSC_Status</members>
+        <members>MSC_Submission_Date</members>
+        <members>MSC_Expiration_Date</members>
+        <members>MSC_Validity</members>
+        <members>Project_End_Date</members>
+		<members>MSC_Customer_Ref_Partner_Thanks</members>
+		<members>MSC_Customer_Reference_Form</members>
+		<members>MSC_PartnerCentralURL</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <!-- <members>Partner_Competencies/Competency_Prov_Accreditation</members> -->
+        <members>Partner_Competencies/Competency_Provisional_due_to_Contact_Turnover</members>
+        <members>Partner_Competencies/Provisional_Additional_Training_needed</members>
+        <members>Partner_Competencies/Provisional_Grandfathered_not_currently_in_use</members>
+        <!-- <members>Partner_Competencies/Reminder_for_Missing_Competency_Requirements</members> -->
+        <members>Partner_Competencies/Reminders_30_60_90_days_before_Provisional_expires</members>
+        <members>Partner_Competencies/Status_changed_to_Incomplete_due_to_incomplete_requirements</members>
+        <members>Partner_Competencies/Welcome_achievement_of_MSC</members>
+		<members>Partner_Competencies/Provisional_Accreditation_Outdated</members>
+		<members>Partner_Competencies/Provisional_no_detail</members>
+		<members>Partner_Competencies/Reinstatement_of_MSC</members>
+        <!-- <members>Partner_Competencies/Provisional_no_detail_not_currently_in_use</members> -->
+		<members>Partner_Competencies/MSC_Certifications_close_to_expiration</members>
+        <members>Partner_Competencies/MSC_Customer_Reference_Approved_Rejected_Email_Notification</members>
+        <members>Partner_Competencies/MSC_Customer_Reference_Expiration_Email_Notification</members>
+        <members>Partner_Competencies/MSC_Customer_Reference_close_to_expiration</members>
+        <members>Partner_Competencies/MSC_Email_Alert_To_Partner_Ops_For_Review</members>
+        <members>Partner_Competencies/MSC_End_Customer_Reference_Email</members>
+        <members>Partner_Competencies/MSC_PBM_Customer_Reference_Email_Notification</members>
+        <members>Partner_Competencies/MSC_Customer_Reference_Invalid_due_to_PBM_flagging_for_review</members>
+        <members>Partner_Competencies/MSC_PBM_notification_of_customer_reference_status_changed_to_invalid</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Competency__c.Master_Competency_Changed_to_Incomplete</members>
+        <members>Competency__c.Master_Competency_Provisional_Alert_Accred_Outdated</members>
+        <members>Competency__c.Master_Competency_Provisional_Alert_Additional_Training_Needed</members>
+        <members>Competency__c.Master_Competency_Provisional_Alert_Contact_Turnover</members>
+        <members>Competency__c.Master_Competency_Provisional_Alert_Grandfathered</members>
+        <members>Competency__c.Master_Competency_Provisional_Alert_Provisional</members>
+        <members>Competency__c.Master_Competency_Welcome_Email</members>
+        <members>Competency__c.Master_Reminder_Notification_on_Provisional</members>
+		<members>Competency__c.Alert_Reinstatement_of_MSC</members>
+		<members>Competency__c.MSC_Certification_Expiration_30_days_notification_Email_Alert</members>
+        <members>Competency__c.MSC_Certification_Expiration_60_days_notification_Email_Alert</members>
+        <members>Competency__c.MSC_Certification_Expiration_90_days_notification_Email_Alert</members>
+        <members>Competency__c.MSC_Customer_Reference_Expiration_30_days_notification_Email_Alert</members>
+        <members>Competency__c.MSC_Customer_Reference_Expiration_60_days_notification_Email_Alert</members>
+        <members>Competency__c.MSC_Customer_Reference_Expiration_90_days_notification_Email_Alert</members>
+        <members>Customer_Reference__c.MSC_Customer_Reference_Email_Notification_for_Approval_Rejection</members>
+        <members>Customer_Reference__c.MSC_Customer_Reference_Email_Request_for_approval</members>
+        <members>Customer_Reference__c.MSC_Customer_Reference_Email_to_PBM_and_PMM_Notification</members>
+        <members>Customer_Reference__c.MSC_Customer_Reference_Expiration_Email_Notification</members>
+        <members>Customer_Reference__c.MSC_Email_notification_PBM_review_to_Ops_team</members>
+		<members>Competency__c.Master_Competency_Provisional_Alert_Cust_Ref_Pending</members>
+        <members>Customer_Reference__c.MSC_PBM_notification_of_customer_reference_status_changed_to_invalid</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Competency__c.Blank_Provisional_Reason</members>
+        <members>Competency__c.End_Date_to_Today</members>
+        <members>Competency__c.Master_competency_Status_to_Incomplete</members>
+        <members>Competency__c.Meeting_Training_Requirement_to_false</members>
+        <members>Competency__c.Meets_Customer_Reference_to_false</members>
+        <members>Competency__c.Populate_Primary_Contact</members>
+        <members>Competency__c.Provisional_Status_End_Date_to_Blank</members>
+        <members>Competency__c.Provisional_to_false</members>
+        <members>Competency__c.Track_Provisional_Reminder_in_Activity</members>
+        <members>Competency__c.update_Populate_PBM</members>
+		<members>Customer_Reference__c.Status_Expiry_Update</members>
+        <members>Customer_Reference__c.resendemailfielduncheck</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Competency__c.Competency Provisional Alert - Acc Outdated</members>
+        <members>Competency__c.Competency Provisional Alert - Contact Turnover</members>
+        <members>Competency__c.Competency Provisional Alert - Cust Ref Pending</members>
+        <members>Competency__c.Competency Provisional Alert - Grandfathered</members>
+        <members>Competency__c.Competency Welcome email</members>
+        <members>Competency__c.Master - Reminder Notification for Provisional</members>
+        <members>Competency__c.Master - Send Email on Competency Status Changed - to Incomplete</members>
+        <members>Competency__c.Master Competency Provisional Alert - Acc Outdated</members>
+        <members>Competency__c.Master Competency Provisional Alert - Additional Training Needed</members>
+        <members>Competency__c.Master Competency Provisional Alert - Contact Turnover</members>
+        <members>Competency__c.Master Competency Provisional Alert - Grandfathered</members>
+        <members>Competency__c.Master Competency Provisional Alert - Provisional</members>
+        <members>Competency__c.Master Competency Welcome email</members>
+        <members>Competency__c.Reminder Notification for Provisional</members>
+        <members>Competency__c.Status changed to Incomplete due to Provisional EndDate</members>
+		<members>Competency__c.Send Email on Competency Status Changed - to Incomplete</members>
+		<members>Competency__c.Comp Reinstatement of MSC</members>
+		<members>Competency__c.Competency Provisional Alert - Provisional</members>
+		<members>Competency__c.MSC Certification Expiration 90 60 30 days notification</members>
+        <members>Competency__c.MSC Customer Reference Expiration 90 60 30 days notification</members>
+        <members>Customer_Reference__c.MSC Customer Reference Approved Rejected Email</members>
+        <members>Customer_Reference__c.MSC Customer Reference Email for Approval</members>
+        <members>Customer_Reference__c.MSC Customer Reference Expiration Email Notification</members>
+        <members>Customer_Reference__c.MSC Customer Reference PBM PMM Email Notification</members>
+        <members>Customer_Reference__c.MSC Email notification to Partner Ops team for review</members>
+		<members>Competency__c.Master Competency Provisional Alert - Cust Ref Pending</members>
+        <members>Customer_Reference__c.MSC PBM notification of customer reference status changed to invalid</members>
+		<members>Competency__c.Status changed to Incomplete due to Provisional EndDate CustRef</members>
+        <name>WorkflowRule</name>
+    </types>
+    <types>
+        <members>Competency__c.Email_has_been_sent_for_Status_Change_Incomplete</members>
+        <members>Competency__c.Master_Email_has_been_sent_for_Provisional_Reason_Accreditation_Outdated</members>
+        <members>Competency__c.Master_Email_has_been_sent_for_Provisional_Reason_Additional_Training_Needed</members>
+        <members>Competency__c.Master_Email_has_been_sent_for_Provisional_Reason_Contact_Turnover</members>
+        <members>Competency__c.Master_Email_has_been_sent_for_Provisional_Reason_Grandfathered</members>
+        <members>Competency__c.Master_Email_has_been_sent_for_Provisional_Reason_Provisional</members>
+        <members>Competency__c.Master_Email_has_been_sent_for_Status_Change_Incomplete</members>
+        <members>Competency__c.Welcome_to_the_Program_on_achieving_a_Master_Competency</members>
+		<members>Competency__c.Email_Reminder_Missing_Master_Services_Competency_Requirements_Before_30_Days</members>
+        <members>Competency__c.Email_Reminder_Missing_Master_Services_Competency_Requirements_Before_60_Days</members>
+        <members>Competency__c.Email_Reminder_Missing_Master_Services_Competency_Requirements_Before_90_Days</members>
+        <members>Competency__c.VMware_Master_Services_Competency_Achieved_Status_Reinstated</members>
+		<members>Competency__c.MSC_Certification_Expiration_30_days_notification</members>
+        <members>Competency__c.MSC_Certification_Expiration_60_days_notification</members>
+        <members>Competency__c.MSC_Certification_Expiration_90_days_notification</members>
+        <members>Competency__c.MSC_Customer_Reference_Expiration_30_days_notification</members>
+        <members>Competency__c.MSC_Customer_Reference_Expiration_60_days_notification</members>
+        <members>Competency__c.MSC_Customer_Reference_Expiration_90_days_notification</members>
+        <members>Customer_Reference__c.Email_to_notify_partner_whether_Approved_Rejected</members>
+        <members>Customer_Reference__c.MSC_Customer_Reference_Email_to_PBM_and_PMM_Notification</members>
+        <members>Customer_Reference__c.MSC_Customer_Reference_Expiration_Email_Notification</members>
+        <members>Customer_Reference__c.MSC_Email_notification_PBM_review_to_Ops_team</members>
+        <members>Customer_Reference__c.MSC_End_Customer_Reference_Email</members>
+		<members>Competency__c.Master_Email_has_been_sent_for_Provisional_Reason_CustRef</members>
+        <members>Customer_Reference__c.MSC_PBM_notification_of_customer_reference_status_changed_to_invalid</members>
+        <name>WorkflowTask</name>
+    </types>
+	<types>
+        <members>Account.Competency_Dashboard</members>
+        <members>Account.Master_Services_Competency_Dashboard</members>
+		<members>Account.Accreditation_Summary</members>
+		<members>Customer_Reference__c.New_Customer_Reference</members>
+        <members>Customer_Reference__c.Resend_Email</members>
+        <members>Customer_Reference__c.Review</members>
+        <name>WebLink</name>
+    </types>
+	<types>
+        <members>CertificationAccreditation__c.Valid_through_date_did_not_pass</members>
+		<members>Customer_Reference__c.Comments_by_Ops_Team_Validation</members>
+        <members>Customer_Reference__c.Validating_PBM_PMM_User</members>
+        <members>Customer_Reference__c.Status_should_not_be_changed_inactiveref</members>
+		<members>Customer_Reference__c.Invalid_status_uncheck_review_mandatory</members>
+        <name>ValidationRule</name>
+    </types>
+	<types>
+        <members>Account-BChannels</members>
+        <members>Account-EDU-Master Account Layout - Non Admin</members>
+        <members>Account-EDU-Partner Account Sales Layout</members>
+        <members>Account-Master Account Layout %E2%80%93 Sales</members>
+        <members>Account-Master Account Layout - Non Admin</members>
+        <members>Account-Master Partner Account Layout</members>
+        <members>Account-Master Partner Account Layout - System Admin</members>
+        <members>Account-Master Partner Account Layout - TAP</members>
+        <members>Account-Master Partner Account Layout - TAP Ope</members>
+        <members>Account-Partner Account Layout</members>
+        <members>Account-Partner Account Sales Layout</members>
+        <members>Account-Partner Account Sales Layout CS SC</members>
+        <members>Account-Updated Master Account Layout - ICSM</members>
+		<members>Competency__c-Competency Layout</members>
+		<members>Competency__c-Competency Layout - Non Admin</members>
+		<members>Competency__c-Competency Layout - Partner</members>
+		<members>Competency__c-Competency Layout for Support Team</members>
+		<members>Customer_Reference__c-Customer Reference Layout</members>
+		<members>Customer_Reference__c-Customer Reference Layout - Non Admin</members>
+		<members>Competency_Admin__c-Competency Admin Layout</members>
+        <name>Layout</name>
+    </types>
+
+		<!-- TAP Account Extension Start-->
+	<types>
+        <members>TAP_Account_Extension__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>TAP_Account_Extension__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Badge_Status</members>
+        <members>Competitor</members>
+        <name>GlobalValueSet</name>
+    </types>
+		<!-- TAP Account Extension End -->
+	<!-- Partner Master Service Competency Components- End -->
+	
+	<!-- SFA/PRM Start-->
+	 <types>
+        <members>IBELA_EmailToCase_Mapping</members>
+		 <members>UpdateIncompleteStatusOnProgramDetails</members>
+		 <members>SF1AddOptyProductController</members>
+		 <members>ETM_LeadTriggerHelper</members>
+		 <members>PartnerEnrollController</members>
+		 <members>PartnerEnrollControllerTest</members>
+		 <members>SF1AddOptyProductControllerTest</members>
+        <name>ApexClass</name>
+    </types>
+	<types>
+		<members>RenewalAutomation</members>
+		<members>Progression_Account</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>SF1_OpportunityProductView</members>
+		<members>SF1_ProductAddSearchPage</members>
+		<members>TMSAccountProfilePage</members>
+		<members>DistributorDashboard</members>
+        <name>ApexPage</name>
+    </types>
+	<types>
+		<members>Opportunity-Cloud Opportunity Layout</members>
+		<members>OpportunityLineItem-Opportunity Product Layout</members>
+        <name>Layout</name>
+    </types>
+	<types>
+		<members>*</members>
+        <name>Profile</name>
+    </types>
+	<types>
+		<members>Account_Profile__c.of_CPUs_covered_by_vSAN_error</members>
+		<members>Account_Profile__c.of_CPUs_covered_by_NSX_error</members>
+        <name>ValidationRule</name>
+    </types>
+	<types>
+		<members>PC_DistiHeader1</members>
+		<members>PC_Dist_Train_Req</members>
+		<members>PC_DistiHeaderEnd</members>
+		<members>PC_ImpHeader3</members>
+		<members>PC_DistiHeader2</members>
+		<members>PC_DistiHeader3</members>
+		<members>PC_DistiHeader4</members>
+		<members>PC_DistiHeader5</members>
+		<members>PC_DistiHeader6</members>
+		<members>PC_DistiHeader7</members>
+		<members>PC_DistiHeader8</members>
+		<members>PC_DistiHeader9</members>
+		<members>PC_DistiHeader10</members>
+		<members>PC_DistiHeader11</members>
+		<members>PC_DistiHeader12</members>
+		<members>PC_DistiHeader13</members>
+		<members>PC_DistiLink</members>
+		<members>PC_DistiHeader14</members>
+        <name>CustomLabel</name>
+    </types>
+	<types>
+		<members>Account_Profile__c.of_CPUs_covered_by_vSAN__c</members>
+		<members>Account_Profile__c.of_CPUs_covered_by_NSX__c</members>
+		<members>Account_Profile__c.Management__c</members>
+		<members>Account_Profile__c.NSX__c</members>
+		<members>Account_Profile__c.vSAN__c</members>
+		<members>Account_Profile__c.vCloud_Foundation__c</members>
+		<members>Account_Profile__c.EUC_Mobile__c</members>
+		<members>Account_Profile__c.Hybrid_Cloud__c</members>
+		<members>Account_Profile__c.Public_Cloud_Vendor__c</members>
+		<members>Account_Profile__c.Private_Cloud_Status__c</members>
+		<members>Account_Profile__c.EUC_Desktop__c</members>
+		<members>Account_Profile__c.Dev_Ops__c</members>
+		<members>Account_Profile__c.IoT__c</members>
+		<members>Account_Profile__c.Joint_Strategy_with_SI_in_place__c</members>
+        <name>CustomField</name>
+    </types>
+	<!-- SFA/PRM End -->
+		<!-- Account trigger optimization start -->
+	<types>
+        <members>AccountTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+	<!-- Account trigger optimization end -->
+    <version>40.0</version>
+</Package>
